@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tests.Fixtures
+namespace SandBox.Tests.Fixtures
 {
     public static class ExampleFixture
     {

@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using SandBox.Infra;
-using SandBox.Infra.Presistence;
+using SandBox.Database.Infra;
+using SandBox.Database.Infra.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 

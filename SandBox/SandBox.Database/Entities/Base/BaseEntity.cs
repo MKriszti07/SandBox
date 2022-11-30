@@ -1,4 +1,4 @@
-﻿namespace SandBox.Core.Domain.Common.Entities
+﻿namespace SandBox.Database.Entities.Base
 {
     public abstract class BaseEntity<T>
     {

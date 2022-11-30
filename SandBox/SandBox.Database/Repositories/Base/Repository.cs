@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SandBox.Core.Domain.Common.Interfaces;
-using SandBox.Infra.Presistence;
+using SandBox.Database.Infra.Persistence;
+using SandBox.Database.Interfaces.Base;
 using System.Linq.Expressions;
 
-namespace SandBox.Core.Domain.Common.Repositories
+namespace SandBox.Database.Repositories.Base
 {
     public class Repository<T> : IRepository<T> where T : class
     {

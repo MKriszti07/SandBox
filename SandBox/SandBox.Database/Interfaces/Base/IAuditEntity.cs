@@ -1,10 +1,10 @@
-﻿namespace SandBox.Core.Domain.Common.Interfaces
+﻿namespace SandBox.Database.Interfaces.Base
 {
     public interface IAuditEntity
     {
         DateTime CreatedDate { get; set; }
         string CreatedBy { get; set; }
         DateTime? UpdatedDate { get; set; }
-        string UpdatedBy { get; set; }
+        string? UpdatedBy { get; set; }
     }
 }

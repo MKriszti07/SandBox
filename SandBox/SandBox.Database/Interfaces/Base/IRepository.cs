@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace SandBox.Core.Domain.Common.Interfaces
+namespace SandBox.Database.Interfaces.Base
 {
     public interface IRepository<T> where T : class
     {

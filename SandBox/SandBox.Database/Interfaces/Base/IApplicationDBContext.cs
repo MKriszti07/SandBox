@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SandBox.Core.Domain.Master;
+using SandBox.Database.Entities;
 
-namespace SandBox.Core.Domain.Common.Interfaces
+namespace SandBox.Database.Interfaces.Base
 {
     public interface IApplicationDBContext
     {

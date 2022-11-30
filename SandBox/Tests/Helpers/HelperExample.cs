@@ -1,7 +1,7 @@
 ﻿using Moq.Protected;
 using Newtonsoft.Json;
 
-namespace Tests.Helpers
+namespace SandBox.Tests.Helpers
 {
     internal static class HelperExample<T>
     {

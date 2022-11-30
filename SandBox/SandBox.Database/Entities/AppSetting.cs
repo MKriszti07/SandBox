@@ -1,6 +1,6 @@
-﻿using SandBox.Core.Domain.Common.Entities;
+﻿using SandBox.Database.Entities.Base;
 
-namespace SandBox.Core.Domain.Master
+namespace SandBox.Database.Entities
 {
     public class AppSetting : BaseEntity<int>
     {

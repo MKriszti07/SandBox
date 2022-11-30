@@ -1,8 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SandBox.Core.Domain.Common.Interfaces;
-using SandBox.Infra.Presistence;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using SandBox.Database.Infra.Persistence;
+using SandBox.Database.Interfaces.Base;
 
-namespace SandBox.Infra
+namespace SandBox.Database.Infra
 {
     public static class DependencyInjection
     {

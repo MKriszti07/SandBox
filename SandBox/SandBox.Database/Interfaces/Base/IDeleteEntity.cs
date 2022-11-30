@@ -1,4 +1,4 @@
-﻿namespace SandBox.Core.Domain.Common.Interfaces
+﻿namespace SandBox.Database.Interfaces.Base
 {
     public interface IDeleteEntity
     {

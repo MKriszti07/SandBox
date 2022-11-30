@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SandBox.Core.Domain.Common.Interfaces;
-using SandBox.Core.Domain.Master;
+using SandBox.Database.Entities;
+using SandBox.Database.Interfaces.Base;
 
-namespace SandBox.Infra.Presistence
+namespace SandBox.Database.Infra.Persistence
 {
     public class ApplicationDBContext : DbContext, IApplicationDBContext
     {
